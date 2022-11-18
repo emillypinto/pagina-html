@@ -1,11 +1,20 @@
-* {
+:root{
+    --primeira-cor:"#591d65";
+* { --segundo-cor:"#f5a6ea";
+
+    --borda:"#1859c9";
+
+    --fundo:"#a2faf3";
+    --text:"#022d50";
+
+
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: rgb(62, 64, 66);
-    color: rgb(251, 251, 250);
+    background-color: var(--fundo);
+    color: var(--text);
     font-size: 30px;
 }
 
@@ -18,5 +27,7 @@ h1 {
       min-height: 200px 
   }
 
-  .conteudo>.esquedar>img } 
-   
+  .conteudo>.esquedar>img {
+   width: 70px; 
+   height: 70px;
+  } 
